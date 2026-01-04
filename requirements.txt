@@ -1,0 +1,30 @@
+# Core scientific stack
+numpy>=1.21
+pandas>=1.3
+scipy>=1.8
+matplotlib>=3.5
+
+# Machine learning
+torch>=1.12
+
+# WHY EACH PACKAGE IS REQUIRED
+1. numpy
+  Numerical arrays
+  Monte Carlo sampling
+  Core math for probabilities
+2. pandas
+  Data loading and cleaning
+  Cross-section → probability tables
+  CSV I/O for reproducibility
+3. matplotlib
+  All figures in figures/
+  Error bars, uncertainty bands
+  Publication-quality plots
+4. scipy
+  Numerical integration (Simpson rule)
+  Baseline fitting (polynomials)
+  Physics data processing
+5. torch
+  PINN implementation
+  Automatic differentiation
+  Monte-Carlo dropout for uncertainty
